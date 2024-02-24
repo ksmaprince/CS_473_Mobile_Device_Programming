@@ -4,4 +4,5 @@
     <string name="guess">Guess</string>
     <string name="type_a_new_chemical_name_to_add">Type a new chemical name to add</string>
     <string name="add_chemical">Add Chemical</string>
+    <string name="enter_a_chemical_name_or_guess">Enter a chemical name or guess:</string>
 </resources>

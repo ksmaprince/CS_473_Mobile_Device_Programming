@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
                     binding.tvResult.text = "Chemical '$chemicalName' is already available"
                 }else{
                     chemicals.add(chemicalName)
+                    binding.tvResult.text = "Chemical $chemicalName added successfully"
                 }
             }
         }

@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:padding="10dp"
-        android:layout_gravity="center_horizontal"
+        android:text="@string/enter_a_chemical_name_or_guess"
         android:layout_margin="4dp"/>
 
     <EditText
