@@ -11,7 +11,7 @@
         android:id="@+id/edtWaterResource"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Water resource name"
+        android:hint="@string/water_resource_name"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,7 +22,7 @@
         android:id="@+id/edtLocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Location"
+        android:hint="@string/location"
         app:layout_constraintTop_toBottomOf="@id/edtWaterResource"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +32,7 @@
         android:id="@+id/edtType"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Type"
+        android:hint="@string/type"
         app:layout_constraintTop_toBottomOf="@id/edtLocation"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +42,7 @@
         android:id="@+id/btnAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add"
+        android:text="@string/add"
         app:layout_constraintTop_toBottomOf="@id/edtType"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
@@ -62,19 +62,19 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Water Resource Name"
+                android:text="@string/water_resource_name"
                 android:padding="5dp"
                 android:textStyle="bold"
                 android:background="@drawable/border_bg"/>
 
             <TextView
-                android:text="Location"
+                android:text="@string/location"
                 android:padding="5dp"
                 android:textStyle="bold"
                 android:background="@drawable/border_bg"/>
 
             <TextView
-                android:text="Type"
+                android:text="@string/type"
                 android:padding="5dp"
                 android:textStyle="bold"
                 android:background="@drawable/border_bg"/>
