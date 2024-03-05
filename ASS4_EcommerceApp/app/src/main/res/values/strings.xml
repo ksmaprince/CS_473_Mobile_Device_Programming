@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EcommerceApp</string>
+    <string name="title">Sign in to <b>Zappos.com</b> using your Amazon account</string>
+    <string name="create_a_new_account">Create a new Account</string>
+    <string name="c_1996_2017_amazon_com_inc_or_its_affiliates">\u00A9 1996-2017, Amazon.com, Inc. or its affiliates</string>
+    <string name="conditions_of_use_privacy_notice">Conditions of Use Privacy Notice</string>
+    <string name="new_to_amazon">New to Amazon?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="keep_me_signed_in">Keep me signed in.</string>
+    <string name="details">Details</string>
+    <string name="show_password">Show Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="amazon">Amazon</string>
+</resources>
