@@ -4,15 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:padding="10dp">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/survey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:textSize="33sp"
+        android:gravity="center_horizontal"/>
+
+    <RadioGroup
+        android:id="@+id/rgSurvey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="10dp">
+
+        <RadioButton
+            android:id="@+id/rbFoodPreference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/food_preferences"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbDietaryHabit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dietary_habits"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnStartSurvey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_survey"
+        app:layout_constraintTop_toBottomOf="@id/rgSurvey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
