@@ -9,4 +9,8 @@ data class Product(
     val cost: Double,
     val image: Int,
     val icon: Int
-): Serializable
+): Serializable{
+    override fun toString(): String {
+        return productName
+    }
+}

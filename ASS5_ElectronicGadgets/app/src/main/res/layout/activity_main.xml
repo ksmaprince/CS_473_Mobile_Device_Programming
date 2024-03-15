@@ -16,14 +16,19 @@
         tools:listitem="@layout/item_layout"
         android:layout_marginBottom="60dp"/>
 
-    <Button
+    <TextView
         android:id="@+id/btnViewCart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="View Cart"
+        android:text="@string/view_cart"
+        android:padding="12dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_margin="8dp"/>
+        android:layout_margin="8dp"
+        android:background="@drawable/border_bg"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
