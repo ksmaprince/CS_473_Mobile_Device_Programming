@@ -2,4 +2,12 @@
     <string name="app_name">SportNewsAndInformation</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="sport_type">
+        <item>Measure</item>
+        <item>Precision</item>
+        <item>Spectacle</item>
+        <item>Combat</item>
+        <item>Play</item>
+    </array>
 </resources>

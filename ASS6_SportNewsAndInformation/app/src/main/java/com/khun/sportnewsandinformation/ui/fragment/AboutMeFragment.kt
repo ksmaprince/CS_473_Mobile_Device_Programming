@@ -32,6 +32,7 @@ class AboutMeFragment : Fragment() {
         binding.tvName.text = profile.name
         binding.tvSportProfile.text = profile.sportProfile
     }
+
     override fun onDestroy() {
         super.onDestroy()
         _binding = null

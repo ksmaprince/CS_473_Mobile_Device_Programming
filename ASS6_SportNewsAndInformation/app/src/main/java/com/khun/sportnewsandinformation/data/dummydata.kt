@@ -6,6 +6,9 @@ import com.khun.sportnewsandinformation.data.models.Event
 import com.khun.sportnewsandinformation.data.models.News
 import com.khun.sportnewsandinformation.data.models.Profile
 import com.khun.sportnewsandinformation.data.models.Sport
+import com.khun.sportnewsandinformation.data.models.User
+
+//IN MEMORY Dummy Data
 
 val sports = arrayListOf<Sport>(
     Sport("Measure", "Car Racing", "To excel in car racing, first, prioritize safety by wearing appropriate protective gear and understanding track rules. Second, master vehicle control through practice sessions, focusing on braking, accelerating, and steering techniques. Third, study racing lines and optimal trajectories to navigate corners efficiently and gain speed. Finally, maintain focus and composure during races, anticipating challenges and adapting strategies to secure victory."),
@@ -27,7 +30,21 @@ val newsList = arrayListOf<News>(
             "\n" +
             "Last race: Byron held onto the lead during a two-lap dash to the finish and led a 1-2-3 finish for Hendrick Motorsports at Martinsville, the first for a team in the track’s storied history.\n" +
             "\n" +
-            "Fast facts: The victory was Byron’s third in eight races. ... Kyle Larson finished second and Chase Elliott was third on the 40th anniversary of the team’s first win. ... Larson also took over the points lead by 14 over former leader Martin Truex Jr. ... Despite his three victories, Byron is fourth in points, 48 behind Larson. ... There were 13 lead changes among eight drivers. ... The victory was the 29th for Hendrick on the 0.526-mile oval, the most for any organization at any track.", "https://dims.apnews.com/dims4/default/0c1ed71/2147483647/strip/true/crop/4070x2709+0+1/resize/700x466!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F9c%2F33%2F13962edcb0b90330b57327a999bc%2F7ffa80dccd714c6d95b2f1bb76b7bcf2")
+            "Fast facts: The victory was Byron’s third in eight races. ... Kyle Larson finished second and Chase Elliott was third on the 40th anniversary of the team’s first win. ... Larson also took over the points lead by 14 over former leader Martin Truex Jr. ... Despite his three victories, Byron is fourth in points, 48 behind Larson. ... There were 13 lead changes among eight drivers. ... The victory was the 29th for Hendrick on the 0.526-mile oval, the most for any organization at any track.", "https://dims.apnews.com/dims4/default/0c1ed71/2147483647/strip/true/crop/4070x2709+0+1/resize/700x466!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F9c%2F33%2F13962edcb0b90330b57327a999bc%2F7ffa80dccd714c6d95b2f1bb76b7bcf2"),
+    News("Yahoo DFS Basketball: Who to Play, Who to Avoid for 4/10",
+        "We have an eight-game slate on tap Wednesday after a massive Tuesday ledger. As we inch closer to the final day of the regular season, the picture gets a bit murkier with respect to playing time on both contending and non-contending teams. Nevertheless, with 16 teams in action, we still have an ample player pool to work with.\n" +
+                "\n" +
+                "As customary, we'll highlight multiple advantageous positional matchups to exploit at each position for your Yahoo Fantasy lineups, as well as a good trio of candidates that may be best to steer clear of due to a combination of circumstances/salary.",
+        "https://s.yimg.com/ny/api/res/1.2/sJJM3_MZ.s_fN4g5L0mLDw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MDtjZj13ZWJw/https://s.yimg.com/os/creatr-uploaded-images/2024-04/097a39e0-f77a-11ee-b7d7-0668f3435221"),
+    News("Sidney Crosby and the Pittsburgh Penguins were lost two weeks ago. Now they’re in the playoff mix",
+        "PITTSBURGH (AP) — Sidney Crosby insists he’s not a scoreboard watcher.\n" +
+                "\n" +
+                "Not publicly anyway.\n" +
+                "\n" +
+                "Maybe it’s because the Pittsburgh Penguins’ longtime captain is too occupied with his team to worry about anyone else. Or maybe it’s because Crosby never had much reason to check during Pittsburgh’s run to 16 straight playoff berths between 2007 and 2022.\n" +
+                "\n" +
+                "Or maybe it’s simply because Crosby doesn’t have to check his phone to figure out where the Penguins stand. The evidence is on the countless videoboards that greet players wherever they go inside PPG Paints Arena.",
+        "https://dims.apnews.com/dims4/default/4b14515/2147483647/strip/true/crop/4544x3029+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F66%2Fe3%2Fe9b4deeb176d0391a20256dc4519%2Fdf289d2344234477ad22c573921d2de5")
 )
 
 val atheletes = arrayListOf<Athelete>(
@@ -46,6 +63,8 @@ val achievementHistories = arrayListOf<AchievementHistory>(
 )
 
 val profile = Profile("Cristiano Ronaldo", "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQlj3rCfLHry58AtJ8ZyBEAFPtChMddDSUSjt7C7nV3Nhsni9RIx5b0-n7LxfgerrPS6b-P-u3BOM3abuY", "The penultimate athlete in this countdown is none other than Portuguese sensation Cristiano Ronaldo. Now in Saudi Arabia with Al-Nassr, Ronaldo has reached the twilight of his footballing career which has seen him claim multiple Champions Leagues, domestic titles in England, Spain, and Italy while winning the Ballon d'Or on five different occasions.")
+
+val users = arrayListOf<User>(User("admin", "123"))
 
 
 
