@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.khun.animalkingdomexplorer.ui.DashboardFragment"
+        android:label="@string/dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_animalsDetailsFragment"
+            app:destination="@id/animalsDetailsFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_speciesFragment"
+            app:destination="@id/speciesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/animalsDetailsFragment"
+        android:name="com.khun.animalkingdomexplorer.ui.animaldetails.AnimalsDetailsFragment"
+        android:label="@string/animals_details"
+        tools:layout="@layout/fragment_animals_details" />
+    <fragment
+        android:id="@+id/speciesFragment"
+        android:name="com.khun.animalkingdomexplorer.ui.speciesdetails.SpeciesDetailsFragment"
+        android:label="@string/species_details"
+        tools:layout="@layout/fragment_species_details" />
+</navigation>

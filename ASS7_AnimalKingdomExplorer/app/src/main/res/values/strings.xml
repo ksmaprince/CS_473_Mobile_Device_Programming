@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AnimalKingdomExplorer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="animals_details">Animals Details</string>
+    <string name="species_details">Species Details</string>
+    <string name="name">Name</string>
+    <string name="habitat">Habitat</string>
+    <string name="diet">Diet</string>
+    <string name="animal_name">Animal Name</string>
+    <string name="species_description">Species Description</string>
+</resources>
