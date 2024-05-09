@@ -14,19 +14,21 @@ abstract class AnimalKingdomDatabase : RoomDatabase() {
     abstract fun getAnimalDao(): AnimalDao
     abstract fun getSpeciesDao(): SpeciesDao
 
-    @Volatile
-    private var instance: AnimalKingdomDatabase? = null
-    private val LOCK = Any()
+    companion object {
+        @Volatile
+        private var instance: AnimalKingdomDatabase? = null
+        private val LOCK = Any()
 
-    operator fun invoke(context: Context) = instance ?: synchronized(LOCK) {
-        instance ?: buildDatabase(context).also {
-            instance = it
+        operator fun invoke(context: Context) = instance ?: synchronized(LOCK) {
+            instance ?: buildDatabase(context).also {
+                instance = it
+            }
         }
-    }
 
-    private fun buildDatabase(context: Context) = Room.databaseBuilder(
-        context.applicationContext,
-        AnimalKingdomDatabase::class.java,
-        "animal_kingdom_db"
-    ).build()
+        private fun buildDatabase(context: Context) = Room.databaseBuilder(
+            context.applicationContext,
+            AnimalKingdomDatabase::class.java,
+            "animal_kingdom_db"
+        ).build()
+    }
 }
