@@ -56,8 +56,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MIUPrograms(list: List<Program>){
+    //Using the lazy Column to show the MIU lists
     LazyColumn {
         items(list){program ->
+            //Populate Each item
             ProgramCard(program = program)
         }
     }
