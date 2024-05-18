@@ -13,6 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ASS_2_ChemicalGuessingGame"
-include(":app")
+rootProject.name = "MIUPrograms"
 include(":app")

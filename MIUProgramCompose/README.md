@@ -1,5 +1,8 @@
 
 # Screen Capture
+
+## Click each item to expand and un-expand detailed descriptions of MIU program
+
 ![img.png](img.png)
 
 

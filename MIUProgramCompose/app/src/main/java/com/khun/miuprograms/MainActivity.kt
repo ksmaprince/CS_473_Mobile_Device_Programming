@@ -79,6 +79,7 @@ fun ProgramCard(program: Program){
         Spacer(modifier = Modifier.width(10.dp))
 
         //create a mutable state variable that trigger UI updates when its value changes
+        //To expand and un-expand item from the list
         var isExpanded by remember {
             mutableStateOf(false)
         }
